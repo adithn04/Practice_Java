@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class loops {
+public class condition {
     public static void main(String[] args) {
         Scanner age = new Scanner(System.in);
         int a = age.nextInt();

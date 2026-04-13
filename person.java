@@ -1,5 +1,5 @@
 public class person {
-    String name;
+    private String name;
 
     person(String name) {
         this.name = name;
@@ -11,7 +11,7 @@ public class person {
 }
 
 class student extends person {
-    int mark;
+    private int mark;
 
     student(String name, int mark) {
         super(name);
